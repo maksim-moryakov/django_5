@@ -1,3 +1,6 @@
 from django.contrib import admin
+from .models import Post
 
-# Register your models here.
+
+# импортировали модель Post в админку
+admin.site.register(Post)
